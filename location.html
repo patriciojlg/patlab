@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8">
+<title>Hello...</title>
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+ <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+ <script type="text/javascript"> 
+/*global DoctoraliaAPI.showWidget*/
+</script>
+ <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+          
+          
+</head>
+ 
+ <style type="text/css">
+ @media screen and (min-width:770px){
+     .bl-dotted {
+             border-left: dotted #e4e4e4 2px;
+         
+     }
+     
+     
+ }
+ @media screen and (min-width:770px){
+ .p-left {
+padding-left: 2em;
+ }
+ .p-right {
+padding-right: 2em !important;
+ }
+ 
+ }
+  .map-btn{
+    border: solid 3px white;
+    padding: 0.7em 1em 0.7em 1em;
+    color: white;
+    background-color: rgba(0, 0 ,0, 0.3);
+  }
+ </style>
+
+<body>
+  <div class="fixed-action-btn horizontal">
+    <a class="btn-floating btn-large red">
+      <i class="large material-icons">phone</i>
+    </a>
+    <ul>
+      <li><a class="btn-floating red"><i class="material-icons">mail</i></a></li>
+      <li><a class="btn-floating yellow darken-1"><i class="material-icons">phone</i></a></li>
+      <li><a class="btn-floating green"><i class="material-icons">format_quote</i></a></li>
+    </ul>
+  </div>
+ <div class="blue-grey lighten-4">
+    <div class=" center-align">
+<div class="banner-text">
+    <h2>Toma de horas y Consultas</h2>
+    <h5>Reserve su hora en donde usted lo desee</h5>
+</div>
+</div>
+<div class="location">
+<div class="container  white z-depth-3">
+<div style="z-index: 1; height: 10em" class="parallax-container valign-wrapper">
+    <div class="container center-align">
+    <a class="map-btn hoverable" href="#">Ver mapa</a>
+      </div> 
+      <div class="parallax "><img src="http://patlab.cl/wp-content/uploads/2017/09/instantánea1.jpg"></div>
+   
+   
+   </div>
+    <div class="left-align">
+         <div class="row">
+      <div class="col s12 m7 avatar">
+     	<h5><i class="material-icons circle">location_on</i> Consulta en Providencia</h5>
+      	<p class="p-left">
+Nueva Providencia 2155 (Edificio Panorámico - Torre A - Ofic. 604) Providencia - Santiago. En Centro Médico Alsap</p>
+<p class="p-left">
+<a class="waves-effect waves-light waves-effect waves-light hoverable light-green accent-4 btn"><i class="material-icons left">today</i>Agendar hora</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a class="waves-effect waves-light waves-effect waves-light hoverable light-green accent-4 btn modal-trigger" href="#modal1"><i class="material-icons left">phone</i> Llamar</a>
+</p>
+      </div>
+      <div class="p-right col s12 m5">
+       <p class="p-left"> <strong>Horario:</strong> lunes - viernes: 9:00 - 22:00</p>
+<p class="p-left bl-dotted"><strong>Atiende:</strong> Particulares (sin previsión), Banmédica, Colmena Golden Cross, Consalud, Cruz Blanca, Fonasa, Masvida, Cruz del Norte, Optima ISAPRE, Rio Blanco y Vida tres (Llama para confirmar si tu plan está incluido)
+</p>
+      </div>
+    </div>
+        
+    </div>
+    </div>
+</div>
+
+
+    </div>
+    <!-- end location-card -->
+   
+
+
+
+
+    
+
+
+    <!-- modal -->
+
+      <!-- Modal Structure -->
+  <div id="modal1" class="modal z-depth-3">
+    <div class="modal-content">
+          <div class="modal-content">
+      <h5 class="teal-text">Patricio Labarca - Psicólogo en Santiago<h5/>
+      <span class="thin">Consulta Providencia: Nueva Providencia 2155 -Edificio Panoramico- Torre A - Ofic. 604.  </span>
+      <p class="blue-grey-text textlighten-2"> </p>
+      <p class="flow-text">+56 9 91092562</p>
+     <h5><i class="material-icons teal-text">today</i>&nbsp;Pide cita ahora sin esperas</h5>
+      <script type="text/javascript" src="http://www.doctoralia.cl/citas/apicitas.js#api=7eb77e705e2847ff9843b04ff1a0aaa4&lang=es-CL"></script><script type="text/javascript">DoctoraliaAPI.showWidget({idagenda:"3301787"});</script>
+<h5><i class="material-icons avatar teal-text">email</i>&nbsp;Envíame un mensaje si tienes dudas</h5>
+
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+</div>
+</div>
+
+    <!-- end modal -->
+
+<script type="text/javascript">
+
+ $(document).ready(function(){
+      $('.modal').modal();
+      $('.parallax').parallax();
+    });
+        </script>
+
+</div>
+</div>
+
+
+
+</body>
+</html>
