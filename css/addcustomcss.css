@@ -1,0 +1,121 @@
+ @media screen and (min-width:770px){
+     .bl-dotted {
+             border-left: dotted #e4e4e4 2px;
+         
+     }
+     
+     
+ }
+ @media screen and (min-width:770px){
+ .p-left {
+padding-left: 2em;
+ }
+ .p-right {
+padding-right: 2em !important;
+ }
+ 
+ }
+  .map-btn{
+    border: solid 3px white;
+    padding: 0.7em 1em 0.7em 1em;
+    color: white;
+    background-color: rgba(0, 0 ,0, 0.3);
+  }
+  .location .container{
+padding-top: 0% !important;
+padding-bottom: 0% !important;
+}
+.pbottom-0 {
+padding-bottom: 0% !important;
+}
+
+.margin-right {
+margin-right: 3%;
+}
+
+.main-h1
+{
+    border: 2px solid white;
+font-size: 3.4em;
+    font-weight: 100;
+    background-color: rgba(0,0,0, 0.3);
+    color: white;
+    padding: 3%;
+
+}
+
+.container {
+padding-bottom: 5%;
+padding-top: 5%;
+}
+.banner-text{
+    display: content;
+margin-bottom: 5%;
+
+}
+
+.margin-top3 {
+margin-top: 3%;
+}
+
+.parallax-container {
+padding-top: 5%; }
+
+h6 {
+border-top: medium solid rgb(183, 211, 236);
+border-bottom: medium solid rgb(183, 211, 236);
+padding-top: 6px;
+padding-bottom: 6px;
+margin-bottom: 3%;
+display: -moz-grid-group;
+}
+
+.marginer{
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.card-section {
+
+padding-bottom: 5%;
+
+}
+
+
+
+.card .card-image img {
+min-height: 200px;
+}
+
+.collection.with-header .collection-item {
+    text-align: left;
+    padding-left: 5% !important; 
+}
+
+
+@media only screen and (min-width: 990px){
+.container {
+	width: 80% !important;
+}
+}
+
+ @media screen and (min-width:770px){
+     .bl-dotted {
+             border-left: dotted #e4e4e4 2px;
+         
+     }
+     
+     
+ }
+ @media screen and (min-width:770px){
+ .p-left {
+padding-left: 2em;
+ }
+ 
+ }
+  .map-btn{
+    border: solid 3px white;
+    padding: 0.7em 1em 0.7em 1em;
+    color: white;
+    background-color: rgba(0, 0 ,0, 0.3);
+  }
